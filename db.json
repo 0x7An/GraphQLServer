@@ -1,0 +1,77 @@
+{ 
+    "users": [
+      {
+        "id": "04",
+        "firstName": "Mr. Nobody",
+        "age": 10,
+        "teamId": "1",
+        "persona": "Developer"
+      }
+    ],
+    "teams": [
+      {
+        "id": "1",
+        "name": "The Team 6",
+        "description": "Responsible by performance at some high demand services"
+      }
+    ],
+    "hoshins": [
+      {
+        "id": "1",
+        "name": "1 Click deploy",
+        "description": "The time of delay between versions",
+        "baseline": "0.8 seconds",
+        "objective": "0.2 seconds"
+      },
+      {
+        "id": "2",
+        "name": "Low rates of bugs",
+        "description": "Continuous work on automated tests",
+        "baseline": "5 reported bugs",
+        "objective": "0 reported bugs"
+      },
+      {
+        "id": "3",
+        "name": "Client Satisfaction",
+        "description": "Results of satisfaction survey",
+        "baseline": "100 likes",
+        "objective": "10000 likes"
+      }
+    ],
+    "goals": [
+      { "teamId": "1",
+        "hoshinId": "1",
+        "id": "1",
+        "name": "Tests running at all code",
+        "description": "Increase Code coverage",
+        "baseline": "27% covered",
+        "objective": "89% covered"
+      },
+      {
+        "teamId": "1",
+        "hoshinId": "2",
+        "id": "1",
+        "name": "Zero Downtime on database",
+        "description": "Zero Downtime on database",
+        "baseline": "30 seg",
+        "objective": "0.2 seconds"
+      },
+      { "teamId": "1",
+        "hoshinId": "3",
+        "id": "1",
+        "name": "Develop kaizens to other teams",
+        "description": "Develop kaizens to other teams",
+        "baseline": "10 kaizens delivered",
+        "objective": "100 kaizens delivered"
+      },
+      {
+        "teamId": "2",
+        "hoshinId": "3",
+        "id": "1",
+        "name": "Cycle time at 4 days",
+        "description": "Cycle time at 4 days",
+        "baseline": "15 days",
+        "objective": "4 days"
+      }
+    ]
+}

@@ -1,0 +1,73 @@
+{ 
+    // Users must be defined as Personas 
+    "users": [
+      {
+        "id": "04",
+        "firstName": "Mr. Nobody",
+        "age": 10,
+        "teamId": "1",
+        "persona": "Developer"
+      }
+    ],
+    
+    // Teams exists to create collaboration, good teams are made of the rigth personas
+    "teams": [
+      {
+        "id": "1",
+        "name": "The Team 6",
+        "description": "Responsible by performance at some high demand services"
+      }
+    ],
+    
+    // Hoshins exists to achieve Excelence
+    "hoshins": [
+      {
+        "id": "1",
+        "name": "1 Click deploy",
+        "description": "The time of delay between versions",
+        "baseline": "0.8 seconds",
+        "objective": "0.2 seconds"
+      },
+      
+      {
+        "id": "2",
+        "name": "Low rates of bugs",
+        "description": "Continuous work on automated tests",
+        "baseline": "5 reported bugs",
+        "objective": "0 reported bugs"
+      },
+      
+      // Hoshins can be related
+      {
+        "id": "3",
+        "name": "Client Satisfaction",
+        "description": "Results of satisfaction survey",
+        "baseline": "100 likes",
+        "objective": "10000 likes"
+      },
+    ],
+
+    // Goals are made to achieve Hoshins
+    // Goals need to be owned by teams?
+    "goals": [
+      { "hoshinId": "1",
+        "id": "1",
+        "name": "Tests running at 89% coverage",
+        "description": "Code coverage",
+        "baseline": "0.8 seconds",
+        "objective": "0.2 seconds"
+      },
+      {
+        "hoshinId": "2",
+        "id": "1",
+        "name": "Tests running at 89% coverage",
+        "description": "Code coverage"
+      },
+      {
+        "hoshinId": "3",
+        "id": "1",
+        "name": "Cycle time at 4 days",
+        "description": ""
+      }
+    ]
+  }
